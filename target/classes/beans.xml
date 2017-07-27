@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+    <bean id ="database_conn" class="work.with.db.DatabaseConn" >
+    </bean>
+
+
+    <!--<bean id="mongo_database_wrap" class="db.MongoDatabaseWrap">
+    </bean>
+    <bean id = "user_DAO_impl" class="model.UserDAOImpl">
+        <property name="wrap">
+            <ref  bean="mongo_database_wrap"/>
+        </property>
+    </bean>
+    <bean id="user_management_service" class="services.UserManagementServiceImpl">
+    </bean>
+
+    <bean id="authentication_service" class="services.AuthenticationServiceImpl">
+        <property name="userDAO">
+            <ref bean="user_DAO_impl"/>
+        </property>
+    </bean>-->
+
+</beans>
