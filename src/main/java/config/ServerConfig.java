@@ -9,6 +9,9 @@ public class ServerConfig {
     public static Integer PORT_MONGO;
     public static String DB_NAME;
 
+    public static String GIFT_CODE_FOR_USER_COLL;
+    public static String GIFT_CODE_GENERAL;
+
 
 
     //public static Gson globalGson = new Gson();
@@ -20,6 +23,8 @@ public class ServerConfig {
         HOST_MONGO = properties.getString("host_mongo");
         PORT_MONGO = properties.getInt("port_mongo");
         DB_NAME = properties.getString("db_name");
+        GIFT_CODE_FOR_USER_COLL= properties.getString("gift_code_for_user_coll");
+        GIFT_CODE_GENERAL= properties.getString("gift_code_general");
     }
 
 

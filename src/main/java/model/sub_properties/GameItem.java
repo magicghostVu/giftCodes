@@ -4,8 +4,8 @@ package model.sub_properties;
  * Created by Fresher on 27/07/2017.
  */
 public class GameItem {
-    String id;
-    long quantity;
+    private String id;
+    private long quantity;
 
     public GameItem(String id, long quantity) {
         this.id = id;

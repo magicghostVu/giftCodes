@@ -20,9 +20,9 @@ public class DatabaseConn {
     }
 
 
-    public MongoDatabase getMongoDatabase(){
+    /*public MongoDatabase getMongoDatabase(){
         return mongoDatabase;
-    }
+    }*/
 
     public MongoCollection<Document> getCollection(String collectionName){
         return mongoDatabase.getCollection(collectionName);

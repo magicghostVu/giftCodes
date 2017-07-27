@@ -1,6 +1,6 @@
 package dao;
 
-import model.GiftCodeModel;
+import model.AbstractGiftCodeModel;
 
 /**
  * Created by Fresher on 27/07/2017.
@@ -8,8 +8,8 @@ import model.GiftCodeModel;
 public interface GiftCodeDAO {
 
     //
-    GiftCodeModel getGiftCodeById(String Id);
+    AbstractGiftCodeModel getGiftCodeById(String Id);
 
-    boolean save(GiftCodeModel giftCodeModel);
+    boolean save(AbstractGiftCodeModel giftCodeModel);
 
 }
